@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Player from "./pages/Player";
 import "./styles/netflix.css";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -13,5 +13,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
